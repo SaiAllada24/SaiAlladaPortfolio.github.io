@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Zomato Dashboard Details</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <style>
+        .project-detail {
+            margin-top: 2em;
+        }
+
+        .project-detail h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.5em;
+        }
+
+        .project-detail h3 {
+            margin-top: 1.5em;
+        }
+
+        .project-detail .tools {
+            font-style: italic;
+            color: #777;
+        }
+
+        .project-detail .highlight {
+            font-weight: bold;
+        }
+
+        .project-detail .links {
+            margin-top: 1em;
+        }
+
+        .project-detail .links a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .project-detail .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper" class="fade-in">
+        <div id="intro">
+            <h1>Zomato Data Analysis</h1>
+            <p>Interactive Dashboard Details</p>
+            <ul class="actions">
+                <li><a href="index.html" class="button">Back to Projects</a></li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <article class="project-detail">
+                <header class="major">
+                    <h2>Zomato Data Analysis & Interactive Dashboard</h2>
+                </header>
+                <p class="date">📅 April 2025</p>
+                <p class="tools">
+                    🛠 Tools & Techniques: Power BI, DAX, Data Transformation, Data Visualization, Business Intelligence
+                </p>
+
+                <h3>Overview</h3>
+                <p>
+                    This project focused on developing an interactive business intelligence dashboard to uncover trends in restaurant data from Zomato. The goal was to provide strategic insights into restaurant performance, user ratings, cuisines, and location-based preferences that could support decision-making for food tech platforms and restaurant owners.
+                </p>
+
+                <h3>Problem Statement</h3>
+                <p>
+                    With increasing competition in the online food delivery space, understanding customer preferences and restaurant performance at a granular level is key to strategic growth. This project aimed to present actionable insights through a clean and interactive dashboard.
+                </p>
+
+                <h3>Approach & Methodology</h3>
+                <ol>
+                    <li>
+                        <span class="highlight">Data Cleaning & Transformation:</span>
+                        <ul>
+                            <li>Prepared and cleaned raw Zomato data using Power Query Editor.</li>
+                            <li>Removed duplicates, handled missing values, and standardized categorical fields like cuisines, locality, and cost metrics.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="highlight">Modeling & Metrics Creation:</span>
+                        <ul>
+                            <li>Built a relational data model to ensure seamless cross-filtering across visualizations.</li>
+                            <li>Created custom KPIs using DAX expressions, such as:
+                                <ul>
+                                    <li>Average rating per city</li>
+                                    <li>Restaurant density per cuisine</li>
+                                    <li>High-value vs low-value restaurant clusters</li>
+                                    <li>Popularity trends across locations</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="highlight">Dashboard Design:</span>
+                        <ul>
+                            <li>Designed multiple interactive visuals including:
+                                <ul>
+                                    <li>Heatmaps of ratings by location</li>
+                                    <li>Slicer-enabled cuisine filters</li>
+                                    <li>Trend lines for pricing vs rating</li>
+                                    <li>Drill-down charts for restaurant types</li>
+                                </ul>
+                            </li>
+                            <li>Used filters, slicers, and bookmarks to enhance user navigation and storytelling.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>Key Outcomes & Insights</h3>
+                <ul>
+                    <li>Identified high-performing restaurant clusters based on user ratings and pricing.</li>
+                    <li>Highlighted cuisines with the highest average ratings and repeat customer likelihood.</li>
+                    <li>Exposed low-rated zones and helped simulate strategies for customer acquisition in underserved areas.</li>
+                </ul>
+
+                <h3>Key Learnings & Highlights</h3>
+                <ul>
+                    <li>Strengthened skills in data storytelling, data modeling, and interactive BI tool development.</li>
+                    <li>Gained confidence in using DAX to build dynamic metrics and calculated fields.</li>
+                    <li>Reinforced the importance of aligning visual design with business goals.</li>
+                </ul>
+
+               
+                <div class="screenshots-grid">
+                    <div>
+                        <img src="images/1.png" alt="Zomato Dashboard - Overview">
+                        <p class="screenshot-caption">Overview of Key Metrics</p>
+                    </div>
+                    <div>
+                        <img src="images/2.png" alt="Zomato Dashboard - Location Analysis">
+                        <p class="screenshot-caption">Analysis by Location</p>
+                    </div>
+                    <div>
+                        <img src="images/3.png" alt="Zomato Dashboard - Cuisine Trends">
+                        <p class="screenshot-caption">City trends</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <footer id="footer">
+            <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        </footer>
+
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
