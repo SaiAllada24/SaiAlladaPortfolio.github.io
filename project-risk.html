@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Risk Assessment Framework Details</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <style>
+        .project-detail {
+            margin-top: 2em;
+        }
+
+        .project-detail h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.5em;
+        }
+
+        .project-detail h3 {
+            margin-top: 1.5em;
+        }
+
+        .project-detail .tools {
+            font-style: italic;
+            color: #777;
+        }
+
+        .project-detail .highlight {
+            font-weight: bold;
+        }
+
+        .project-detail .links {
+            margin-top: 1em;
+        }
+
+        .project-detail .links a {
+            color: #007bff;
+            /* Adjust color as needed */
+            text-decoration: none;
+        }
+
+        .project-detail .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper" class="fade-in">
+        <div id="intro">
+            <h1>Risk Assessment Framework</h1>
+            <p>Detailed project information</p>
+            <ul class="actions">
+                <li><a href="index.html" class="button">Back to Projects</a></li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <article class="project-detail">
+                <header class="major">
+                    <h2>Designing a Risk Assessment Framework for Construction Projects</h2>
+                </header>
+                <p class="date">📅 August 2024 – December 2024</p>
+                <p class="tools">
+                    🛠 Tools & Techniques: Python, Decision Tree Regression, Analytical Hierarchy Process (AHP), Monte Carlo
+                    Simulation, Pandas, NumPy, Matplotlib
+                </p>
+
+                <h3>Overview</h3>
+                <p>
+                    This project focused on designing a hybrid risk assessment framework to help stakeholders in construction
+                    projects evaluate, prioritize, and mitigate potential risks. The goal was to deliver a data-driven and
+                    probabilistic solution for quantifying the impact and likelihood of various risk factors.
+                </p>
+
+                <h3>Problem Statement</h3>
+                <p>
+                    Construction projects often face significant uncertainty due to fluctuating costs, delays, environmental
+                    factors, and workforce management issues. A structured framework was needed to assess risks more
+                    objectively and support better decision-making.
+                </p>
+
+                <h3>Approach & Methodology</h3>
+                <ol>
+                    <li>
+                        <span class="highlight">Risk Identification & Structuring:</span>
+                        <ul>
+                            <li>Conducted literature research and stakeholder interviews to identify key risk parameters (e.g.,
+                                material delays, budget overrun, labor shortages).</li>
+                            <li>Structured risks into quantifiable variables and defined them using both qualitative and
+                                quantitative metrics.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="highlight">Decision Tree Regression (ML Component):</span>
+                        <ul>
+                            <li>Used historical data to train a Decision Tree Regression model that predicted potential cost/time
+                                overruns based on early-stage project inputs.</li>
+                            <li>Enabled scenario-based forecasting by simulating changes in inputs and observing the projected
+                                risk outcome.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="highlight">Analytical Hierarchy Process (AHP):</span>
+                        <ul>
+                            <li>Applied AHP to assign weights to different risk factors through pairwise comparisons.</li>
+                            <li>Allowed domain experts to bring subjectivity into the model in a mathematically consistent way.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="highlight">Monte Carlo Simulation:</span>
+                        <ul>
+                            <li>Ran thousands of simulation trials to model the probabilistic behavior of the overall risk.</li>
+                            <li>Provided output in terms of probability distributions, helping users understand best-case,
+                                worst-case, and most likely risk scenarios.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>Key Outcomes & Insights</h3>
+                <ul>
+                    <li>Created a structured framework that blends machine learning, expert judgment, and simulation for
+                        holistic risk assessment.</li>
+                    <li>Visualized risk probability curves and risk impact matrices using Matplotlib for decision support.</li>
+                    <li>Enabled construction managers to better anticipate risk hotspots and plan contingencies accordingly.
+                    </li>
+                    
+                </ul>
+
+                <h3>Key Learnings & Highlights</h3>
+                <ul>
+                    <li>Gained hands-on experience combining predictive modeling and multi-criteria decision-making
+                        techniques.</li>
+                    <li>Enhanced understanding of uncertainty modeling and its real-world application in project management.
+                    </li>
+                    <li>Demonstrated the value of hybrid approaches in solving complex business problems.</li>
+                </ul>
+
+                
+
+                <div class="screenshots-grid">
+                    <div>
+                        <img src="images/level1.png" alt="Level-1 Risks">
+                        <p class="screenshot-caption">Level-1 Risks</p>
+                    </div>
+                    <div>
+                        <img src="images/level2.jpg" alt="Level-2 Risks">
+                        <p class="screenshot-caption">Level-2 Risks</p>
+                    </div>
+                    <div>
+                        <img src="images/fahp.jpg" alt="FAHP">
+                        <p class="screenshot-caption">FAHP</p>
+                    </div>
+                    <div>
+                        <img src="images/decision tree.png" alt="Decision Tree">
+                        <p class="screenshot-caption">Most influential Risk</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <footer id="footer">
+            <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        </footer>
+
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

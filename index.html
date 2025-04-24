@@ -1,0 +1,568 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Sai Srinivasa Rao Allada Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .icons a {
+            font-size: 1.5em;
+        }
+
+        .icons .fa-github,
+        .icons .fa-linkedin {
+            /* You can add any specific styling for these icons here if needed */
+        }
+
+        .work-experience {
+            margin-top: 2em;
+        }
+
+        .work-experience h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.5em;
+        }
+
+        .work-experience-item {
+            margin-bottom: 1.5em;
+        }
+
+        .work-experience-item h4 {
+            font-weight: bold;
+        }
+
+        .work-experience-item p {
+            margin: 0.5em 0;
+        }
+
+        /* Style for Intro Section Buttons */
+        #intro .actions {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+            /* Adjust spacing between buttons */
+            margin-top: 2em;
+        }
+
+        #intro .actions a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            /* Increased width */
+            height: 80px;
+            /* Increased height */
+            border-radius: 60%;
+            text-indent: -9999px;
+            overflow: hidden;
+            position: relative;
+            color: #fff;
+            font-size: 0.8em;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        #intro .actions a .icon {
+            margin-right: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.8em;
+            /* Increased icon size */
+        }
+
+        #intro .actions .button.icon {
+            padding: 0;
+        }
+
+        #intro .actions li:last-child a {
+            width: auto;
+            height: auto;
+            border-radius: 5px;
+            text-indent: 0;
+            overflow: visible;
+            padding: 0.5em 1.2em;
+            color: #fff;
+            font-size: 1.2em;
+            /* Increased font size */
+            white-space: nowrap;
+            border: 2px solid #fff;
+        }
+
+        #intro .actions a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        }
+
+        /* Style for Navigation Menu */
+        #nav .links {
+            display: flex;
+            justify-content: center;
+            /* Center the menu items */
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #nav .links li {
+            margin: 0 1em;
+            /* Adjust spacing between menu items */
+        }
+
+        #nav .links li a {
+            display: block;
+            padding: 0.5em 0;
+            /* Adjust vertical padding */
+            text-decoration: none;
+            /* Add any other link styling from your main.css if needed */
+        }
+
+        /* New styles for the GitHub and LinkedIn buttons in the nav */
+        #nav .social-links {
+            display: flex;
+            /* */
+            gap: 10px;
+            /* Adjust spacing between buttons */
+            margin-left: 20px;
+            /* Add some left margin to separate from the other links */
+        }
+
+        #nav .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            /* Increased width */
+            height: 40px;
+            /* Increased height */
+            border-radius: 50%;
+            /* Make them round */
+            color: #fff;
+            /* White text color */
+            font-size: 1.8em;
+            /* Increased icon size */
+            transition: background-color 0.3s ease;
+            /* Smooth transition */
+        }
+
+        #nav .social-links a:hover {
+            background-color: #fff;
+            /* White background on hover */
+            color: #000;
+            /* Black text on hover */
+        }
+
+        #nav .social-links .fa-github {
+            background-color: #333;
+            /* GitHub background color */
+        }
+
+        #nav .social-links .fa-linkedin {
+            background-color: #0077b5;
+            /* LinkedIn background color */
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <div id="wrapper" class="fade-in">
+
+        <div id="intro">
+            <h1>Sai Srinivasa Rao Allada<br />
+            </h1>
+            <p>Keen data analyst well versed in Power BI, SQL, Python and Machine Learning. <br />
+                Passionate about transforming data into actionable insights.</p>
+            <ul class="actions">
+                <li><a href="#about" class="button icon solid solo fa-user scrolly">About Me</a></li>
+                <li><a href="#projects" class="button icon solid solo fa-laptop scrolly">Projects</a></li>
+                <li><a href="#experience" class="button icon solid solo fa-briefcase scrolly">Experience</a></li>
+                <li><a href="https://drive.google.com/file/d/1pdCV2e2P9xGX6zy24vC6caEv4zxl4ttJ/view?usp=drive_link"
+                        class="button icon solid solo">Resume</a></li>
+            </ul>
+
+        </div>
+
+        <header id="header">
+            <a href="index.html" class="logo">Sai Allada</a>
+        </header>
+
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://github.com/SaiAllada24" class="icon brands fa-github" target="_blank"
+                    rel="noopener noreferrer"><span class="label">GitHub</span></a>
+               
+            
+            <a href="https://www.linkedin.com/in/sai-allada/" class="icon brands alt fa-linkedin"><span
+                        class="label">LinkedIn</span></a></li>    
+            </div>
+        </nav>
+
+        
+
+        <div id="main">
+
+            <article id="about">
+                <header class="major">
+                    <h2>About Me</h2>
+                </header>
+                <p>Hello! I'm Sai Srinivasa Rao Allada, an aspiring data analytics professional and B.Tech candidate in
+                    Computer Science at Mahindra University (Class of 2025). I excel at converting raw data into
+                    actionable insights using machine learning, predictive modeling, and advanced visualization
+                    techniques. My diverse academic projects and internships at Vasstr and MedTourEasy have sharpened my
+                    technical skills in Python, SQL, MATLAB, and modern analytics tools, all while building a strong
+                    business-focused mindset.
+                </p>
+                <p> Currently, as a part-time intern at Ecode Networks, I'm enhancing our AI-driven firewall management
+                    solutions by developing real-time dashboards, refining PoC feedback systems, and creating engaging
+                    technical content. I aim to join innovative teams where I can unlock the transformative power of data
+                    to drive strategic decision-making and business growth.
+                </p>
+                <p>Explore my portfolio to see how I push the boundaries of data science and business intelligence. I
+                    look forward to connecting and collaborating on exciting opportunities.
+
+                </p>
+
+                <section class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-category">
+                        <h4>Programming and Query Languages</h4>
+                        <ul>
+                            <li>Python</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Data Analysis and Visualization</h4>
+                        <ul>
+                            <li>EDA</li>
+                            <li>Power BI</li>
+                            <li>Matplotlib</li>
+                            <li>Seaborn</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Machine Learning</h4>
+                        <ul>
+                            <li>Scikit-Learn</li>
+                            <li>PyCaret</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Big Data and Platforms</h4>
+                        <ul>
+                            <li>PySpark</li>
+                            <li>Databricks</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Version Control and Collaboration</h4>
+                        <ul>
+                            <li>Git</li>
+                            <li>JIRA</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Soft Skills</h4>
+                        <ul>
+                            <li>Communication</li>
+                            <li>Empathy</li>
+                            <li>Decision Making</li>
+                            <li>Active Listening</li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+
+            <article id="experience">
+                <header class="major">
+                    <h2>Work Experience</h2>
+                </header>
+                <section class="work-experience">
+                    <div class="work-experience-item">
+                        <h4>Ecode Networks - Intern</h4>
+                        <span class="date">Current</span>
+                        <p>
+                            <ul>
+                                <li>Enhancing AI-driven firewall management solutions</li>
+                                <li>Developing real-time dashboards</li>
+                                <li>Refining PoC feedback systems</li>
+                                <li>Creating engaging technical content</li>
+                            </ul>
+                        </p>
+                        <ul class="actions special">
+                            <li><a href="ecode.html" class="button">View Details</a></li>
+                        </ul>
+                    </div>
+                    <div class="work-experience-item">
+                        <h4>Vasstr - Intern</h4>
+                        <span class="date">August 2024 to Feb 2025</span>
+                        <p>
+                            <ul>
+                                <li>
+                                    Conducted comprehensive market research on consumer behavior, trends, and competitor
+                                    analysis to provide key insights that directly informed strategic product development
+                                    and broader business decisions
+                                </li>
+                                <li>
+                                    Developed engaging blog content and marketing materials focused on customized fashion
+                                    options, significantly enhancing brand awareness and educating target users
+                                </li>
+                                <li>
+                                    Collaborated closely with the founding team in the platform ideation phase,
+                                    contributing to early-stage operational planning by documenting backend workflows and
+                                    processes
+                                </li>
+
+                            </ul>
+                        </p>
+                        <ul class="actions special">
+                            <li><a href="vasstr.html" class="button">View Details</a></li>
+                        </ul>
+                    </div>
+                    <div class="work-experience-item">
+                        <h4>MedTour Easy - Data Analyst Intern</h4>
+                        <span class="date">July 2024 to August 2024</span>
+                        <p>
+                            <ul>
+                                <li>
+                                    Leveraged Bokeh to develop an interactive ingredient analysis tool, providing users
+                                    with a platform for comparing moisturizing product ingredients and making
+                                    data-driven purchasing decisions
+                                </li>
+                                <li>
+                                    Utilized virtual communication tools (Zoom) to coordinate project tasks, share updates,
+                                    and maintain effective team communication
+                                </li>
+                            </ul>
+                        </p>
+                        <ul class="actions special">
+                            <li><a href="medtour.html" class="button">View Details</a></li>
+                        </ul>
+                    </div>
+                </section>
+                
+            </article>
+            <section id="projects" class="posts">
+                <header class="major">
+                    <h2>Projects</h2>
+                </header>
+                <article>
+                    <header>
+                        <span class="date">Feb 2025</span>
+                        <h2><a href="#">Sales Analysis Case Study using SQL - Walmart Dataset</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/walmart.jpg" alt="Walmart Sales Analysis" /></a>
+                    <p>
+                        Conducted a real-world sales analysis case study on a Walmart dataset to derive actionable
+                        business
+                        insights and
+                        recommendations.
+                        Cleaned and transformed retail data using Python, created custom metrics, and imported the
+                        dataset into MySQL using PyMySQL and SQLAlchemy for efficient querying.
+                        Performed in-depth analysis to identify key trends and solve business problems related to payment
+                        patterns,
+                        sales fluctuations, branch performance, and category profitability.
+                        Derived insights on busiest transaction days,
+                        preferred payment methods, city-category rating trends, and branches with significant
+                        year-over-year
+                        revenue
+                        declines.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="project-walmart.html" class="button">View Project Details</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span class="date">Jan 2025</span>
+                        <h2><a href="#">Boston House Price Prediction End-to-End Solution</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/1736533993370.jpeg"
+                            alt="Boston House Price Prediction" /></a>
+                    <p>
+                        Built and deployed a complete machine learning solution for predicting Boston house prices,
+                        demonstrating
+                        end-to-end ML development skills.
+                        Performed comprehensive data cleaning and exploratory data analysis (EDA) to prepare the Boston
+                        Housing
+                        dataset for modeling.
+                        Developed and deployed a Linear Regression model using Flask on Heroku, enabling
+                        real-time price predictions through a web application.
+                        Tools: Python, Pandas, NumPy, Scikit-learn, Flask, Heroku.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="project_boston.html" class="button">View Project Details</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span class="date">Mar 2025</span>
+                        <h2><a href="#">Zomato Dashboard Creation and Analysis</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/pngwing.com (7).png" alt="Zomato Dashboard" /></a>
+                    <p>
+                        Designed and developed an interactive dashboard using Power BI to analyze Zomato restaurant data.
+                        Visualized key metrics such as order frequency, top restaurants, popular cuisines, and geographical
+                        distribution of orders to provide insights into customer behavior and market trends.
+                        Utilized data cleaning and transformation techniques in Power BI to prepare the data for analysis
+                        and create meaningful visualizations.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="project-zomato.html" class="button">View Project Details</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span class="date">Aug 2024 - Dec 2024</span>
+                        <h2><a href="#">Designing a Risk Assessment Framework for Construction Projects</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/image.png"
+                            alt="Construction Risk Assessment" /></a>
+                    <p>
+                        Designed an Al-guided risk assessment framework to enhance decision-making in the real estate
+                        sector
+                        by pre-
+                        dicting and evaluating project risks.
+                        Developed a framework incorporating machine learning models (Decision
+                        Tree regression), Analytical Hierarchy Process (AHP), and Monte Carlo Simulation to provide
+                        comprehensive
+                        risk assessments.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="project-risk.html" class="button">View Project Details</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span class="date">Jan 2024 - July 2024</span>
+                        <h2><a href="#">Estimating Vigilance in Driving Roles Using EEG Signals</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/eeg.webp" alt="EEG Driver Vigilance" /></a>
+                    <p>
+                        Developed a system to analyze EEG signals and classify driver vigilance levels, aiming to improve
+                        road
+                        safety by predicting driver drowsiness.
+                        Implemented a multi-head attention-based transformer model to
+                        effectively analyze EEG signals and classify response times into distinct vigilance levels.
+                        Used Python and MATLAB for signal processing, model development,
+                        and analysis.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="project_eeg.html" class="button">View Project Details</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span class="date">Oct 2024</span>
+                        <h2><a href="#">Customer Segmentation Data Analysis Project</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/customer segmentation.jpg"
+                            alt="Customer Segmentation" /></a>
+                    <p>
+                        Investigated the influence of demographic factors on customer spending behavior through detailed
+                        transaction
+                        data analysis.
+                        Explored and visualized customer transaction data using Python, Pandas,
+                        and
+                        various visualization libraries to identify key spending patterns and trends.
+                        Tools: Python, Pandas, Visualization Libraries.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="project_customer_segmentation.html" class="button">View Project Details</a></li>
+                    </ul>
+                </article>
+            </section>
+
+            <footer>
+                <div class="pagination">
+                    <a href="#" class="page active">1</a>
+                </div>
+            </footer>
+
+        </div>
+
+        <footer id="footer">
+            <section>
+                <form method="post" action="#">
+                    <div class="fields">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" /></li>
+                    </ul>
+                </form>
+            </section>
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Address</h3>
+                    <p>Kondapur,Hyderabad<br />
+                        500043,Telangana</p>
+                </section>
+                <section>
+                    <h3>Phone</h3>
+                    <p><a href="#">+91 9810994629</a></p>
+                </section>
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="#">saiallada24@gmail.com</a></p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt">
+                        <li><a href="https://github.com/SaiAllada" class="icon brands alt fa-github"><span
+                                    class="label">GitHub</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/sai-allada/" class="icon brands alt fa-linkedin"><span
+                                    class="label">LinkedIn</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+        <div id="copyright">
+            <ul>
+                <li>&copy; Sai Srinivasa Rao Allada</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
